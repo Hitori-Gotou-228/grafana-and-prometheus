@@ -19,7 +19,7 @@ ExecStart=/usr/bin/node_exporter
 WantedBy=multi-user.target
 -
 systemctl daemon-reload
-systemctl enable --now node_exporter.ser
+systemctl enable --now node_exporter.service
 ----systemctl restart prometheus
 ---systemctl enable grafana-server --now
 ---systemctl status grafana-server
