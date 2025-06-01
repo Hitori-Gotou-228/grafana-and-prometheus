@@ -1,5 +1,5 @@
-# grafana-and-prometheus
-grafana prometheus
+#grafana_and_prometheus
+на двух серверах
 dnf install grafana golang-github-prometheus prometheus-node_exporter -y
 nano /etc/prometheus/prometheus.yml
 ----
