@@ -2,7 +2,7 @@
 на двух серверах <br/>
 dnf install grafana golang-github-prometheus prometheus-node_exporter -y <br/>
 в конце файла nano /etc/prometheus/prometheus.yml  <br/>
-меняем 'lochalhost:9090',hq-srv:9100','br-srv:9100'  <br/>
+меняем ['lochalhost:9090',hq-srv:9100','br-srv:9100']  <br/>
 
 ![image](https://github.com/user-attachments/assets/a829cb53-c0cb-4e0c-9d86-04fc34a2285e)
 
